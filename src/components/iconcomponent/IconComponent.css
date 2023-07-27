@@ -1,0 +1,33 @@
+.feature-offer {
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 48px;
+  }
+  
+  .icon-mapped-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 62px;
+  }
+  
+  .feature-bio {
+    font-family: "DM Sans-regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 60%;
+    width: 310px;
+    margin-top: 16px;
+  }
+
+  .icon-mapped-div.index1{
+    padding-top: 100px;
+
+  } 

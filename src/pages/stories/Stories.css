@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'DM Sans-regular';
+    src: url('../../fonts/DMSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/DMSans-Bold.ttf');
+}
+
+.moon-pic{
+    width:375px;
+    height:317px
+}
+
+.story-info-div{
+    width: 375px;
+    height:495px;
+    background-color:#000000;
+    padding-top: 48px;
+    padding-left:29px;
+}
+
+.read-me-div-story{
+    display: flex;
+    font-weight: 700;
+    font-family: 'DM Sans';
+    font-size: 10px;
+    initial-letter: 2px;
+    line-height: 15.62px;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+.arrow1{
+    transform: translateX(5px);
+    margin-left:16px;
+}
+
+.arrow-div{
+    display: flex;
+    text-align: center;
+    
+}
+.story-info-div1{
+    color:#FFFFFF;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15.62px;
+    letter-spacing:2px;
+    font-family: 'DM Sans';
+}
+.story-info-div2{
+    color:#FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing:3.33px;
+    font-family: 'DM Sans';
+    width: 200px;
+    margin-top:16px;
+}
+.creator-text-div{
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+}
+.story-info-div3{
+    color:#FFFFFF;
+    opacity:75%;
+    font-size: 11px;
+    font-family: 'DM Sans-regular';
+    font-weight: 400;
+    line-height: 16.93px;
+
+}
+.story-info-div4{
+    color:#FFFFFF;
+    font-size: 11px;
+    font-family: 'DM Sans-regular';
+    font-weight: 400;
+    line-height: 16.93px;
+    margin-left: 9px;
+}
+.story-info-div5{
+    color:#FFFFFF;
+    opacity: 60%;
+    font-size: 13px;
+    font-family: 'DM Sans-regular';
+    font-weight: 400;
+    line-height: 25px;
+    width: 275px;
+    margin-top: 24px;
+    
+}
+.story-info-div-tablet{
+    display: none;
+}
+
+.moon-pic-tablet{
+    display: none;
+}
+.grid-stories-2{
+    display: none;
+}
+
+@media screen and (min-width: 376px) {
+    .container {
+        display: inline-block;
+        width: 100%;
+      }
+      .moon-pic{
+        width:100%;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .grid-stories{
+        display: grid;
+        grid-template-columns: 384px 1fr;
+    }
+    .moon-pic{
+        display: none;
+    }
+    .story-info-div{
+        display: none;
+    }
+    
+ .moon-pic-tablet{
+        display: inline-block;
+        width: 100%;
+        height:650px;
+        background-image: url('../../pages/assets/stories/tablet/moon-of-appalacia.jpg');
+        background-size: cover;
+    }
+    .image-tablet{
+        width: 768px;
+        height:650px;
+    }
+    .story-info-div-tablet{
+        display: inline-block;
+        background-color:transparent;
+        margin-top: 122px;
+        padding-left: 42.67px;
+    }
+    .story-info-div5{
+        font-size: 15px;
+        width: 380px;
+    }
+
+}
+@media screen and (min-width: 769px) {
+    .container {
+        display: inline-block;
+        width: 100%; 
+      }
+      .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .moon-pic-tablet{
+        width: 100%;
+        height:650px;
+    }
+    .story-info-div-tablet{
+        width: 100%;
+    }
+    .image-tablet{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1453px) {
+    .grid-stories{
+        display: none;
+    }
+    .grid-stories-2{
+        height: 2000px;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 0;
+    }
+    
+    .moon-pic-tablet{
+        display: inline-block;
+        width: 1453px;
+        height:650px;
+        background-image: url('../../pages/assets/stories/desktop/moon-of-appalacia.jpg');
+        background-size: cover;
+    }
+
+    .story-info-div-tablet{
+        background-color:transparent;
+        margin-top: 152px;
+        padding-left: 112px;
+    }
+
+}
+
+@media screen and (min-width: 1454px) {
+
+    .container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+      }
+
+}
+
+@media screen and (min-width: 1455px) {
+    .moon-pic-tablet{
+        width: 100%;
+        height:650px;
+    }
+    .image-tablet{
+        width: 100%;
+    }
+    .container {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

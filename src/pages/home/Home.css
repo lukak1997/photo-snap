@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../fonts/DMSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'DM Sans-regular';
+    src: url('../../fonts/DMSans-Regular.ttf');
+}
+.Home{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.feature-home-div{
+    margin-bottom: 60px;
+}
+
+.home-header-photo-div{
+    width:375px;
+    height:294px;
+    background-image: url("../../pages/assets/home/mobile/create-and-share.jpg");
+}
+
+.home-text-div-header{
+    width: 375px;
+    height: 419px;
+    background-color:rgba(0, 0, 0, 1);
+    padding-left: 33px;
+}
+
+.lanier-header-home{
+        width: 128px;
+        height:6px;
+        background-image: linear-gradient(
+              to bottom,
+              #ffc593 0%,
+              #bc7198 51.95%,
+              #5a77ff 100%
+            );
+}
+
+.home-text-div-header-text1{
+    margin-top: 66px;
+    font-family: 'DM Sans';
+    width: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33px;
+    color: rgba(255, 255, 255, 1);
+}
+.home-text-div-header-text2{
+    margin-top: 16px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'DM Sans-regular';
+    width: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity:60%;
+    width: 318px;
+}
+.home-text-div-header-text3{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'DM Sans';
+    width: 700;
+    font-size: 12px;
+    line-height: 15.62px;
+    letter-spacing: 2px;
+}
+
+.home-invite-button-header{
+    margin-top: 23px;
+    display: flex;
+}
+
+.arrow-button-home-invite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-button-home-invite-arrow1{
+    margin-left:18px;
+}
+.arrow-button-home-invite-arrow2{
+    transform: translate(-5px);
+}
+
+.home-middle-photo-div{
+    width: 375px;
+    height: 271px;
+    background-image: url('../../pages/assets/home/mobile/beautiful-stories.jpg');
+}
+.home-text-div-middle{
+    width: 375px;
+    height: 419px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 33px;
+    padding-top: 72px;
+}
+
+.home-text-div-middle-text1{
+    width:250px;
+    font-family: 'DM Sans';
+    width: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33px;
+    color: rgba(0, 0, 0, 1);
+}
+.home-text-div-middle-text2{
+    margin-top: 16px;
+    color:rgba(0, 0, 0, 1);
+    font-family: 'DM Sans-regular';
+    width: 400;
+    font-size: 15px;
+    line-height: 25px;
+    opacity:60%;
+    width: 318px;
+}
+.home-text-div-middle-text3{
+    color:rgba(0, 0, 0, 1);
+    font-family: 'DM Sans';
+    width: 700;
+    font-size: 12px;
+    line-height: 15.62px;
+    letter-spacing: 2px;
+}
+
+.home-invite-button-middle{
+    margin-top: 23px;
+    display: flex;
+}
+
+.home-footer-photo-div{
+    width: 375px;
+    height: 271px;
+    background-image: url('../../pages/assets/home/mobile/designed-for-everyone.jpg');
+}
+
+.home-text-div-bottom-text1{
+    width:318px;
+    font-family: 'DM Sans';
+    width: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.home-text-div-bottom{
+    width: 375px;
+    height: 419px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 33px;
+    padding-top: 92px;
+}
+.mapped-home-item2{
+    display: none;
+}
+.feature-mapped-div-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.leptoptablet{
+    display: none;
+}
+.leptopcomp{
+    display: none;
+}
+.cameramantablet{
+    display: none;
+}
+.cameramancomp{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cameraman{
+        display: none;
+    }
+    .leptop{
+        display: none;
+    }
+    
+    .mapped-home-item1{
+       width:768px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    .menriver-div-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .home-header-photo-div{
+        width:273px;
+        height: 650px;
+        background-image: url('../../pages/assets/home/tablet/create-and-share.jpg');
+    }
+
+    .home-text-div-header{
+        width:495px;
+        height:650px;
+        padding-left: 0px;
+        position: relative;
+    }
+    .lanier-header-home{
+        width:6px;
+        height:304px;
+        margin-top:173px;
+        position:absolute;
+    }
+    .home-text-div-header-text1{
+        margin-top: 173px;
+        font-family: 'DM Sans';
+        width: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        color: rgba(255, 255, 255, 1);
+        padding-left:54px;
+    }
+    .home-text-div-header-text2{
+        margin-top: 21px;
+        width: 420px;
+        padding-left:54px;
+    }
+    
+    .home-invite-button-header{
+        margin-top: 48px;
+        display: flex;
+        padding-left:54px;
+    }
+    .leptoptablet{
+        display: inline-block;
+    }
+    .home-middle-photo-div{
+       width:273px; 
+       height:600px;
+       background-image: url('../../pages/assets/home/tablet/beautiful-stories.jpg');
+    }
+    .leptop-div-wrapper{
+        display: flex;
+    }
+    .home-text-div-middle{
+        width: 495px;
+        height: 600px;
+        padding-left: 54px;
+        padding-top: 136px;
+    }
+    
+    .home-text-div-middle-text1{
+        width:300px;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        color: rgba(0, 0, 0, 1);
+    }
+    .home-text-div-middle-text2{
+        margin-top: 21px;
+        width: 318px;
+    }
+    
+    .home-invite-button-middle{
+        margin-top: 48px;
+        display: flex;
+    }
+    .cameramantablet{
+        display: inline-block;
+    }
+    .home-footer-photo-div{
+        width: 273px;
+        height: 600px;
+        background-image: url('../../pages/assets/home/tablet/designed-for-everyone.jpg');
+    }
+    .cameraman-div-wrapper{
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    .home-text-div-bottom-text1{
+        width:350px;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        color: rgba(0, 0, 0, 1);
+    }
+    .home-text-div-middle-text2{
+        width: 387px;
+    }
+    
+    .home-text-div-bottom{
+        width:495px;
+        height:600px;
+        background-color: rgba(255, 255, 255, 1);
+        padding-left: 54px;
+        padding-top: 160px;
+    }
+    
+}
+@media screen and (min-width:1453px) {
+    .mapped-home-item2{
+        width:1453px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .mapped-home-item1{
+        display: none;
+    }
+
+    .feature-home-div{
+        display: flex;
+        margin-top: 80px;
+        margin-bottom:120px;
+        gap:80px;
+    }
+
+    .home-header-photo-div{
+        width:830px;
+        height: 650px;
+        background-image: url('../../pages/assets/home/desktop/create-and-share.jpg');
+    }
+    .home-text-div-header{
+        width:623px;
+    }
+    .home-middle-photo-div{
+        width:830px; 
+        height:600px;
+        background-image: url('../../pages/assets/home/desktop/beautiful-stories.jpg');
+     }
+     .home-text-div-middle{
+        width:623px; 
+        height:600px;
+     }
+     .home-footer-photo-div{
+        width: 830px;
+        height: 600px;
+        background-image: url('../../pages/assets/home/desktop/designed-for-everyone.jpg');
+    }
+    .home-text-div-bottom{
+        width:623px; 
+        height:600px;
+     }
+}

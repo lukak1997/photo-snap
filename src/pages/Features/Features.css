@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/DMSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "DM Sans-regular";
+  src: url("../../fonts/DMSans-Regular.ttf");
+}
+
+@media screen and (min-width: 376px) {
+  
+  .wrapper-bottom-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+}
+
+@media screen and (min-width: 768px) {
+  
+  .grid-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width:768px;
+  }
+
+  .wrapper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1453px) {
+  
+  .grid-tablet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:1453px;
+  }
+}
+

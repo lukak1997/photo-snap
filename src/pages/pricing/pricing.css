@@ -1,0 +1,741 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("../../fonts/DMSans-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "DM Sans-regular";
+    src: url("../../fonts/DMSans-Regular.ttf");
+  }
+
+.button-month-year-div{
+    width: 375px;
+    height: 136px;
+    background-color:rgba(255, 255, 255, 1);
+    display: flex;
+    padding-top:64px;
+    gap: 32px;
+}
+
+.button-month-year{
+    width:64px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgba(223, 223, 223, 1);
+    display: flex;
+    align-items: center;
+}
+.button-month-year-false{
+    width:64px;
+    height: 32px;
+    border-radius: 16px;
+    background-color:rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+
+}
+.button-month{
+    background-color: rgba(0, 0, 0, 1);
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    margin-left:4px;
+
+}
+.button-year{
+    background-color:rgba(255, 255, 255, 1);
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    margin-left: 35px;
+}
+
+.text-month{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 60px;
+}
+.text-year{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+}
+.pricing-plan-div{
+    width: 375px;
+    height:auto;
+}
+.pricing-plan-div-item1{
+    background-color: rgba(245, 245, 245, 1);
+    width: 318px;
+    height:407px;
+    margin-left: 29px;
+}
+.item1-plan-div-text1{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:24px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    padding-top:56px;
+    padding-left:130px;
+
+}
+
+.item1-plan-div-text2{
+    text-align: center;
+    margin-top: 18px;
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(0, 0, 0, 1);
+    opacity:60%;
+}
+.item1-plan-div-text3{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:40px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 4.17px;
+    text-align: center;
+    padding-top: 40px;
+    width: 318px;
+}
+.item1-plan-div-text4{
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(0, 0, 0, 1);
+    opacity:60%;
+    width: 318px;
+    text-align: center;
+}
+
+.item1-button-plan-div{
+    width:245px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 1);
+    color:rgba(255, 255, 255, 1);
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:12px;
+    line-height: 15.62px;
+    letter-spacing:2px;
+    border: none;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.pricing-plan-div-item2{
+    background-color:rgba(0, 0, 0, 1);
+    width: 318px;
+    height:407px;
+    margin-left: 29px;
+    margin-top:24px;
+}
+.lanier-gradient-mobile{
+    width: 318px;
+    height:6px;
+    background-image: linear-gradient(
+          to bottom,
+          #ffc593 0%,
+          #bc7198 51.95%,
+          #5a77ff 100%
+        );
+}
+.item2-plan-div-text1{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:24px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    padding-top:56px;
+    padding-left:140px;
+
+}
+
+.item2-plan-div-text2{
+    text-align: center;
+    margin-top: 18px;
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(255, 255, 255, 1);
+    opacity:60%;
+    width: 275px;
+    margin-left: 21px;
+}
+.item2-plan-div-text3{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:40px;
+    line-height: 48px;
+    color:rgba(255, 255, 255, 1);
+    letter-spacing: 4.17px;
+    width: 318px;
+    text-align: center;
+    padding-top: 40px;
+}
+.item2-plan-div-text4{
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(255, 255, 255, 1);
+    opacity:60%;
+    width: 318px;
+    text-align: center;
+}
+
+.item2-button-plan-div{
+    width:245px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(0, 0, 0, 1);
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:12px;
+    line-height: 15.62px;
+    letter-spacing:2px;
+    border: none;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.pricing-plan-div-item3{
+    background-color: rgba(245, 245, 245, 1);
+    width: 318px;
+    height:407px;
+    margin-left: 29px;
+    margin-top:24px;
+}
+.item3-plan-div-text1{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:24px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    padding-top:56px;
+    padding-left:105px;
+
+}
+
+.item3-plan-div-text2{
+    text-align: center;
+    margin-top: 18px;
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(0, 0, 0, 1);
+    opacity:60%;
+    width: 275px;
+    margin-left: 21px;
+}
+.item3-plan-div-text3{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:40px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 4.17px;
+    width: 318px;
+    text-align: center;
+    padding-top: 40px;
+}
+.item3-plan-div-text4{
+    font-family: "DM Sans-regular";
+    font-weight: 400;
+    font-size:15px;
+    line-height: 25px;
+    color:rgba(0, 0, 0, 1);
+    opacity:60%;
+    width: 318px;
+    text-align: center;
+}
+
+.item3-button-plan-div{
+    width:245px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 1);
+    color:rgba(255, 255, 255, 1);
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:12px;
+    line-height: 15.62px;
+    letter-spacing:2px;
+    border: none;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+.pricing-feature-text{
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size:12px;
+    line-height: 15.62px;
+    letter-spacing:2px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 64px;
+    margin-left: 29px;
+}
+
+.pricing-line{
+    width:318px;
+    height:1px;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 23px;
+    margin-left: 29px;
+}
+.mapped-div-pricing-feature{
+    margin-left:29px;
+}
+
+.basic-pro-business-div{
+    display: flex;
+    margin-top: 16px;
+}
+.basic-pro-business-text1{
+    font-family: "DM Sans";
+    opacity:50%;
+    color: rgba(0, 0, 0, 1);
+    font-size:10px;
+    font-weight: 700;
+    line-height:13.02px;
+    letter-spacing:1.67px;
+}
+.basic-pro-business-text2{
+    font-family: "DM Sans";
+    opacity:50%;
+    color: rgba(0, 0, 0, 1);
+    font-size:10px;
+    font-weight: 700;
+    line-height:13.02px;
+    letter-spacing:1.67px;
+    margin-left:70px;
+}
+.basic-pro-business-text3{
+    font-family: "DM Sans";
+    opacity:50%;
+    color: rgba(0, 0, 0, 1);
+    font-size:10px;
+    font-weight: 700;
+    line-height:13.02px;
+    letter-spacing:1.67px;
+    margin-left: 82px;
+}
+
+.header-text-pricing{
+    font-family: "DM Sans";
+    font-size:12px;
+    font-weight: 700;
+    line-height:15.62px;
+    letter-spacing:2px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 23px;
+}
+.pricing-line-items{
+    width:318px;
+    height:1px;
+    background-color:rgba(223, 223, 223, 1);
+    margin-top:24px;
+}
+
+.pricing-icon-div{
+    margin-top:8px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    gap: 91px;
+}
+.pricing-plan-div-tablet{
+    display: none;
+}
+.pricing-feature-div-tablet{
+    display: none;
+}
+
+@media screen and (min-width: 376px) {
+    .Pricing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .pricing-plan-div-tablet{
+        display: none;
+    }
+    .pricing-feature-div-tablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pricing-plan-div{
+        display: none;
+    }
+    .pricing-feature-div{
+        display: none;
+    }
+    .button-month-year-div{
+        padding-top:112px;
+    }
+    
+    .pricing-plan-div-tablet{
+        display: inline-block;
+        margin-top: 40px;
+        width: 768px;
+        height:auto;
+    }
+    .pricing-plan-div-item1-tablet{
+        background-color: rgba(245, 245, 245, 1);
+        width: 689px;
+        height:270px;
+        margin-left: 29px;
+        display: flex;
+    }
+    .item1-plan-div-text1-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:24px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 1);
+        margin-top:40px;
+        margin-left:40px;
+    }
+    
+    .item1-plan-div-text2-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 1);
+        opacity:60%;
+        margin-top: 18px;
+        margin-left: 40px;
+        width:270px;
+    }
+    .item1-plan-div-text3-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:40px;
+        line-height: 48px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 4.17px;
+        margin-top:42px;
+        width: 500px;
+        text-align: center;
+        
+    }
+    .item1-plan-div-text4-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 1);
+        opacity:60%;
+        width: 550px;
+        text-align: center;
+        
+    }
+    
+    .item1-button-plan-div-tablet{
+        width:245px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 1);
+        color:rgba(255, 255, 255, 1);
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:12px;
+        line-height: 15.62px;
+        letter-spacing:2px;
+        border: none;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+    
+
+    .pricing-plan-div-item2-tablet{
+        background-color:rgba(0, 0, 0, 1);
+        width: 689px;
+        height:270px;
+        margin-left: 29px;
+        display: flex;
+        margin-top:24px;
+    }
+    .lanier-gradient-tablet{
+        width: 6px;
+        height:270px;
+        background-image: linear-gradient(
+              to bottom,
+              #ffc593 0%,
+              #bc7198 51.95%,
+              #5a77ff 100%
+            );
+            position: absolute;
+    }
+    .item2-plan-div-text1-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:24px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 1);
+        margin-top:40px;
+        margin-left:40px;
+    }
+    
+    .item2-plan-div-text2-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(255, 255, 255, 1);
+        opacity:60%;
+        margin-top: 18px;
+        margin-left: 40px;
+        width:270px;
+    }
+    .item2-plan-div-text3-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:40px;
+        line-height: 48px;
+        color:rgba(255, 255, 255, 1);
+        letter-spacing: 4.17px;
+        margin-top:42px;
+        width: 500px;
+        text-align: center;
+        
+    }
+    .item2-plan-div-text4-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(255, 255, 255, 1);
+        opacity:60%;
+        width: 550px;
+        text-align: center;
+        
+    }
+    
+    .item2-button-plan-div-tablet{
+        width:245px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 1);
+        color:rgba(0, 0, 0, 1);
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:12px;
+        line-height: 15.62px;
+        letter-spacing:2px;
+        border: none;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+
+
+    .pricing-plan-div-item3-tablet{
+        background-color: rgba(245, 245, 245, 1);
+        width: 689px;
+        height:270px;
+        margin-left: 29px;
+        display: flex;
+        margin-top:24px;
+    }
+    .item3-plan-div-text1-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:24px;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 1);
+        margin-top:40px;
+        margin-left:40px;
+    }
+    
+    .item3-plan-div-text2-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 1);
+        opacity:60%;
+        margin-top: 18px;
+        margin-left: 40px;
+        width:270px;
+    }
+    .item3-plan-div-text3-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:40px;
+        line-height: 48px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 4.17px;
+        margin-top:42px;
+        width: 500px;
+        text-align: center;
+        
+    }
+    .item3-plan-div-text4-tablet{
+        font-family: "DM Sans-regular";
+        font-weight: 400;
+        font-size:15px;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 1);
+        opacity:60%;
+        width: 550px;
+        text-align: center;
+        
+    }
+    
+    .item3-button-plan-div-tablet{
+        width:245px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 1);
+        color:rgba(255, 255, 255, 1);
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:12px;
+        line-height: 15.62px;
+        letter-spacing:2px;
+        border: none;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+    
+    .pricing-feature-div-tablet{
+        display: inline-block;
+    }
+    .wrapper-pricing-feature-text-tablet{
+        display: flex;
+        gap:40px;
+        margin-top:64px;
+    }
+    .basic-pro-business-div-tablet{
+        display: flex;
+        gap:120px;
+        margin-left:105px;
+    }
+
+    .pricing-line-tablet{
+        width:689px;
+        height:1px;
+        background-color: rgba(0, 0, 0, 1);
+        margin-top: 23px;
+    }
+    .mapped-div-pricing-feature-tablet{
+        display: flex;
+    }
+    
+    .compare-text-div{
+        width:689px;
+        height:48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 112px;
+
+    }
+    .compare-text{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:40px;
+        line-height: 48px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 4.17px;
+    }
+    .pricing-feature-text-tablet{
+        margin-left: 24px;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:12px;
+        line-height: 15.62px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 2px;
+    }
+    .basic-pro-business-text-tablet{
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size:12px;
+        line-height: 15.62px;
+        color: rgba(0, 0, 0, 1);
+        letter-spacing: 2px;
+    }
+
+    .header-text-pricing-tablet{
+        font-family: "DM Sans";
+        font-size:12px;
+        font-weight: 700;
+        line-height:15.62px;
+        letter-spacing:2px;
+        color: rgba(0, 0, 0, 1);
+        margin-top: 23px;
+        margin-left: 23px;
+        width: 250px;
+    }
+    .pricing-line-items-tablet{
+        width:689px;
+        height:1px;
+        background-color:rgba(223, 223, 223, 1);
+        margin-top: 23px;
+    }
+    .pricing-icon-div-tablet{
+        margin-left: 15px;
+        padding-top:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:340px; 
+    }
+
+}
+
+
+@media screen and (min-width: 1453px) {
+    .pricing-plan-div-tablet{
+        display: none;
+    }
+    .pricing-plan-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing-plan-div-item1{
+        background-color: rgba(245, 245, 245, 1);
+        width: 350px;
+        height:407px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .item2-plan-div-text1{
+        padding-top:83px;
+    }
+    
+    .pricing-plan-div-item2{
+        background-color:rgba(0, 0, 0, 1);
+        width: 350px;
+        height:470px;
+        margin-left: 30px;
+        margin-top:48px;
+    }
+    
+    
+    
+    .pricing-plan-div-item3{
+        background-color: rgba(245, 245, 245, 1);
+        width: 350px;
+        height:407px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    
+}
+
